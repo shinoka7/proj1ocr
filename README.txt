@@ -1,4 +1,4 @@
-Setup Leptonica: (Steps in Cygwin Terminal)
+Setup Leptonica: (Steps In Ubuntu Environment)
 Step1: mkdir -p /opt/src && /opt/src
 Step2: tar -xvf leptonica-1.76.0.tar.gz
 Step2.5: cd leptonica-1.76.0
@@ -9,6 +9,7 @@ Step6: make clean
 
 OCR Usage
 Step1: (In terminal) cd to the directory of README (this file)
+Step1.5: sudo apt install tesseract-ocr
 Step2: Run in the commandline 
 	tesseract -l eng [ENTER INPUT IMAGE FILENAME] [ENTER OUTPUT FILENAME]
 Step3: The input image file should be in .tif format, and there is an example provided in the package
