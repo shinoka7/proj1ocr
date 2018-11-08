@@ -10,7 +10,7 @@ Step6: make clean
 OCR Usage
 Step1: (In terminal) cd to the directory of README (this file)
 Step2: Run in the commandline 
-	'tesseract -l eng [inputimage filename] [outputbase name]'
+	tesseract -l eng [ENTER INPUT IMAGE FILENAME] [ENTER OUTPUT FILENAME]
 Step3: The input image file should be in .tif format, and there is an example provided in the package
 Step4: The Outputbase should be generated in the same directory containing text
 
