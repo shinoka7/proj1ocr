@@ -1,3 +1,12 @@
+Setup Leptonica:
+Step1: mkdir -p /opt/src && /opt/src
+Step2: tar -xvf leptonica-1.76.0.tar.gz
+Step3: ./configure --without-giflib
+Step4: make
+Step5: make install
+Step6: make clean
+
+OCR Usage
 Step1: (In terminal) cd to the directory of this file
 Step2: Run in the commandline 
 	'tesseract -l eng [inputimage filename] [outputbase name]'
@@ -13,7 +22,7 @@ The code in this repository is licensed under the Apache License, Version 2.0 (t
 you may not use this file except in compliance with the License.
 You may obtain a copy of the License at
 
-   http://www.apache.org/licenses/LICENSE-2.0
+   http://www.apache.org/licenses/LICENCE-2.0
 
 Unless required by applicable law or agreed to in writing, software
 distributed under the License is distributed on an "AS IS" BASIS,
