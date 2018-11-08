@@ -12,7 +12,7 @@ Step1: (In terminal) cd to the directory of README (this file)
 Step1.5: sudo apt install tesseract-ocr
 Step2: Run in the commandline 
 	tesseract -l eng [ENTER INPUT IMAGE FILENAME] [ENTER OUTPUT FILENAME]
-	(default example) tesseract -l eng text.tif output 
+	//(default example) tesseract -l eng text.tif output 
 Step3: The input image file should be in .tif format, and there is an example provided in the package
 Step4: The Outputbase should be generated in the same directory containing text
 
