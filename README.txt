@@ -1,6 +1,7 @@
-Setup Leptonica:
+Setup Leptonica: (Steps in Cygwin Terminal)
 Step1: mkdir -p /opt/src && /opt/src
 Step2: tar -xvf leptonica-1.76.0.tar.gz
+Step2.5: cd leptonica-1.76.0
 Step3: ./configure --without-giflib
 Step4: make
 Step5: make install
